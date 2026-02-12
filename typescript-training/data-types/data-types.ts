@@ -75,6 +75,13 @@ console.log(data);
 /*****************************************************************/
 
 // 1. Object: object data type that we are going to store key value pairs data.
+//interface in TypeScript is used to define the structure (shape) of an object
+//Why Use Interface?
+     //1.Type safety (prevents mistakes)
+     //2.Better code readability
+     //3.Auto-completion in editors
+     //4.Makes large projects organized
+     
 interface PersonInfo {
     name: string,
     age: number,
