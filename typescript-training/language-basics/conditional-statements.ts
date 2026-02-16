@@ -33,3 +33,23 @@ else {
     console.log("Fail");
 }
 
+
+
+// 2. switch conditional statement ==> will be used when we know the result of conditions before itself.Now we want to choose one options among multiples.
+
+let env: string = "prod";
+switch(env){
+    case "dev":
+        console.log("Application run on development environment");
+        break; //jump statement ==> it will jump to the end of switch statement
+    case "qa":
+        console.log("Application run on testing environment");
+        break;// break the statement and come out of switch case block
+    case "prod":
+        console.log("Application run on production environment");
+        break;
+    default:
+        console.log("Please provide valid environment");
+}
+
+
