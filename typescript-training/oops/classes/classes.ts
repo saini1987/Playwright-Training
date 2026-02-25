@@ -18,6 +18,11 @@
 
 // creating Employee class
 class Employee {
+
+    //default constructor
+    constructor(){
+        console.log("This is the default constructor")
+    }
     empId: number = 101;
     empName: string = "John";
     empSalary: number = 50000;
@@ -34,4 +39,8 @@ console.log("Employee Name: " + obj.empName);
 console.log("Employee Salary: " + obj.empSalary);
 obj.empAddress();
 
-//3. constructor ==> 
+//3. constructor ==> Constructor is a special method with a name "constructor" created by default in every class.
+// It is used to initialize the data members of the class. It is automatically called when an object of the class is created.
+
+
+
