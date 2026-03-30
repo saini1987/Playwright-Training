@@ -1,0 +1,6 @@
+{
+    "applicationHubLink": "span:text-is('Application Hub')",
+    "userLink": "span:text-is('Users')",
+    "profileLink": "span.contact-photo",
+    "logoutLink": "//span[text()='Log out']"
+}
